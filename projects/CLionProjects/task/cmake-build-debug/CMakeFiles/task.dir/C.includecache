@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ar-han/CLionProjects/task/hello.c
+stdio.h
+-
+string.h
+-
+assert.h
+-
+stdlib.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+criterion/criterion.h
+-
+
